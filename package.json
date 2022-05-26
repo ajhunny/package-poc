@@ -23,7 +23,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "npm run clean && cross-env NODE_ENV=production babel src/components -d dist --copy-files",
+    "build": "npm run clean && mkdir dist && babel src/components -d dist --copy-files",
     "test": "react-scripts test",
     "clean": "rimraf dist",
     "compile": "npm run clean && cross-env NODE_ENV=production babel src/components --out-dir dist --copy-files"

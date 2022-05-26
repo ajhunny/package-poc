@@ -43,7 +43,8 @@ var PrimaryButton = function PrimaryButton(_ref) {
     variant: variant,
     disabled: disabled || loading,
     disableElevation: true,
-    style: style
+    style: style,
+    color: "primary"
   }, props), !loading ? children : /*#__PURE__*/_react.default.createElement(_core.CircularProgress, {
     size: 20,
     color: "primary"
