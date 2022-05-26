@@ -24,6 +24,7 @@ const PrimaryButton = ({
         disabled={disabled || loading}
         disableElevation
         style={style}
+        color='primary'
         {...props}
       >
         {!loading ? children : <CircularProgress size={20} color='primary' />}

@@ -6,10 +6,7 @@ import App from './App';
 
 ReactDOM.render(
   <React.Fragment>
-    <ThemeProvider theme={theme}>
-      <CssBaseline />
       <App/>
-    </ThemeProvider>
   </React.Fragment>,
   document.getElementById('root')
 );

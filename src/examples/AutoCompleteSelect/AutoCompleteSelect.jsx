@@ -18,3 +18,5 @@ const AutoCompleteSelect = () => {
         </div>
     )
 }
+
+export default AutoCompleteSelect;
