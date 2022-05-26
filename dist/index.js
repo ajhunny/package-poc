@@ -16,8 +16,8 @@ Object.defineProperty(exports, "PrimaryButton", {
   }
 });
 
-var _PrimaryButton = _interopRequireDefault(require("./PrimaryButton"));
+var _PrimaryButton = _interopRequireDefault(require("./PrimaryButton/PrimaryButton"));
 
-var _AutoComplete = _interopRequireDefault(require("./AutoComplete"));
+var _AutoComplete = _interopRequireDefault(require("./AutoComplete/AutoComplete"));
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
