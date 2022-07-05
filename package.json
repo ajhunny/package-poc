@@ -28,6 +28,7 @@
     "clean": "rimraf dist",
     "compile": "npm run clean && cross-env NODE_ENV=production babel src/components --out-dir dist --copy-files"
   },
+  "publishConfig":{"registry":"https://testjfrog26.jfrog.io/artifactory/api/npm/test-npm/"},
   "eslintConfig": {
     "extends": [
       "react-app",
